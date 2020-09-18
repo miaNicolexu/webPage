@@ -1,0 +1,93 @@
+* {
+    box-sizing: inherit;
+    /*background-color: aquamarine;*/
+}
+body{
+    margin: 0;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.topnav {
+    overflow: hidden;
+    background-color: dodgerblue;
+}
+.topnav a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: cornflowerblue;
+    color: white;
+}
+
+.topnav p{
+    float:right;
+    color: white;
+}
+.topnav p:hover{
+    background-color: dodgerblue;
+    color: white;
+}
+
+.header{
+    background-color: aliceblue;
+    background-image: url(images/cheersport.jpg);
+    padding: 50px;
+}
+.header h1{
+    text-align: center;
+    color: white;
+    font-size: 170px;
+}
+h2{
+    color: white;
+}
+.column {
+    float: left;
+    width: 45%;
+}
+.column2{
+    float: right;
+    width: 45%;
+}
+.card {
+    background-color: dodgerblue;
+    padding: 20px;
+    margin-top: 20px;
+}
+.card p{
+    text-align: center;
+}
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+footer {
+    background-image: url(images/nca1.jpg);
+    height: 320px;
+    color: white;
+    position: static;
+    overflow: hidden;
+    background-position: center;
+
+}
+/*scroll bar*/
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    background: black;
+}
+::-webkit-scrollbar-thumb {
+    background: white;
+    /*border-radius: 20px;*/
+}
+::-webkit-scrollbar-thumb:hover {
+    background: white;
+}
