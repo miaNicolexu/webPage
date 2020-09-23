@@ -5,6 +5,7 @@
 body{
     margin: 0;
     font-family: "Comic Sans MS", cursive, sans-serif;
+    color: white;
 }
 .topnav {
     overflow: hidden;
@@ -51,6 +52,11 @@ h2{
     float: left;
     width: 45%;
 }
+.column p{
+    text-align: center;
+    color: white;
+    font: bold;
+}
 .column2{
     float: right;
     width: 45%;
@@ -75,8 +81,16 @@ footer {
     position: static;
     overflow: hidden;
     background-position: center;
+    clear: both;
 
 }
+.fakeimg {
+    background-color: white;
+    width: 100%;
+    padding: 40px;
+    clear: both;
+}
+
 /*scroll bar*/
 ::-webkit-scrollbar {
     width: 15px;
